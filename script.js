@@ -11,7 +11,20 @@ let cid = [
   ["ONE HUNDRED", 100],
 ];
 const drawer = document.getElementById('cid');
-drawer.innerHTML +=`<p>Change in drawer:</p>`
-cid.forEach((currency) => {
-    drawer.innerHTML += `<p class="currency">${currency[0].toLowerCase()}: $${currency[1]}</p>`
-})
+const changeDue = document.getElementById('change-due');
+const moneyGiven = document.getElementById('cash');
+const purchase = document.getElementById("purchase-btn");
+
+const givingChange = () => {
+  
+
+
+  
+  drawer.innerHTML += `<p>Change in drawer:</p>
+<br/>`;
+  cid.forEach((currency) => {
+    drawer.innerHTML += `<p class="currency">${currency[0].toLowerCase()}:  $${
+      currency[1]
+    }</p>`;
+  });
+}

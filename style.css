@@ -17,7 +17,7 @@ margin-inline: auto;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     padding: 1.5rem;
 }
 
@@ -45,6 +45,8 @@ justify-items: center;
 }
 .cash-register {
     position: relative;
+    margin-bottom: 4rem;
+    
 }
 .price {
     border: 2px solid rgb(60, 175, 221);
@@ -67,13 +69,14 @@ justify-items: center;
     justify-content: space-between;
      border: 2px solid rgb(60, 175, 221);
      width: 300px;
-     height: 200px;
+     height: 250px;
      position: absolute;
      top: 165%;
      left: -60%;
      border-top-left-radius: 20px;
 border-top-right-radius: 20px;
  background-color: rgb(210, 210, 232);
+ margin-bottom: .5rem;
 
 }
 .buttons-wrapper {
@@ -96,6 +99,7 @@ place-self: center;
 }
 .cid {
     color: black;
+    padding: 1rem;
     position: absolute;
     right: 5%;
     top: 10%;
@@ -104,4 +108,23 @@ place-self: center;
 }
 .currency {
 text-transform: capitalize;
+}
+
+.drawer {
+   border: 2px solid rgb(60, 175, 221);
+    position: absolute;
+    bottom: -60px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(210, 210, 232);
+    display: grid;
+   
+}
+.drawer-btn-last {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: black;
+place-self: center;
+
 }
