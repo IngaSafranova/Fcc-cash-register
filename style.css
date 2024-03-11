@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100ww;
+    height: 100vh;
+    background-color: rgba(6, 6, 22, 0.948);
+color: white;
+display: flex;
+flex-direction: column;
+ align-items: center; 
+font-size: 1.5rem;
+margin-inline: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 1.5rem;
+}
+
+.change {
+   text-align: center;
+   padding-block: 1rem;
+
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+justify-items: center;
+    
+}
+.cash-input {
+    margin: .5rem;
+}
+.purchase-btn {
+    width: fit-content;
+    padding: .25rem;
+    align-self: center;
+    margin: .5rem;
+}
+.cash-register {
+    position: relative;
+}
+.price {
+    border: 2px solid rgb(60, 175, 221);
+    padding: .5rem 1rem;
+    text-align: left;
+    color: black;
+    background-color: rgb(210, 210, 232);
+}
+.neck {
+    border: 2px solid rgb(60, 175, 221);
+    width: 30%;
+    height: 70%; 
+    background-color: rgb(210, 210, 232);
+    position: absolute;
+    left: 20%;
+}
+.register-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     border: 2px solid rgb(60, 175, 221);
+     width: 300px;
+     height: 200px;
+     position: absolute;
+     top: 165%;
+     left: -60%;
+     border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+ background-color: rgb(210, 210, 232);
+
+}
+.buttons-wrapper {
+   
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.drawer-btn {
+    width: 70%;
+    height: 70%;
+place-self: center;
+    
+    background-color: black;
+}
+.cid {
+    color: black;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    font-size:1rem;
+    font-weight: bold;
+}
+.currency {
+text-transform: capitalize;
+}
