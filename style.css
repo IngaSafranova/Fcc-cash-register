@@ -53,6 +53,8 @@ justify-items: center;
     padding: .5rem 1rem;
     text-align: left;
     color: black;
+    font-weight: bolder;
+    font-size: 1.25rem;
     background-color: rgb(210, 210, 232);
 }
 .neck {
